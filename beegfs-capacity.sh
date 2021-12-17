@@ -1,7 +1,7 @@
 #!/bin/bash
 
-textfile_dir="${1}"
-cluster="${2}"
+cluster="${1}"
+textfile_dir="${2}"
 
 output="${textfile_dir}/beegfs_capacity_${cluster}"
 
