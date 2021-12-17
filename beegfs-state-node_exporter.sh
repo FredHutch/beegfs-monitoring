@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cluster="thorium"
-textfile_dir="/var/lib/node_exporter/textfile_collector"
-#textfile_dir="/root/textfile_test"
+cluster=${1}
+textfile_dir=${2}
+
 beegfs_ctl="/opt/beegfs/sbin/beegfs-ctl"
 
 # metrics
