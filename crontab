@@ -1,4 +1,3 @@
-* * * * * /root/node_ping.sh
 * * * * * /root/beegfs-state-node_exporter.sh
 * * * * * /root/beegfs-capacity.sh /var/lib/node_exporter/textfile_collector/ thorium
 * * * * * /root/beegfs-serverstats-node_exporter.sh /var/lib/node_exporter/textfile_collector/ mgmt thorium
@@ -14,4 +13,3 @@
 * * * * * /root/beegfs-resync-node_exporter.sh storage 107 thorium /var/lib/node_exporter/textfile_collector/
 * * * * * /root/beegfs-resync-node_exporter.sh storage 108 thorium /var/lib/node_exporter/textfile_collector/
 * * * * * /root/run_stats_exporter.sh
-
