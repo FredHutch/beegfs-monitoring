@@ -67,24 +67,6 @@ function _client_ip_lookup
   140.107.221.188)
     hn="rhino3"
     ;;
-  140.107.222.78)
-    hn="rhino01"
-    ;;
-  140.107.222.79)
-    hn="rhino02"
-    ;;
-  140.107.222.80)
-    hn="rhino03"
-    ;;
-  140.107.116.31)
-    hn="bkp-ofs01-prd"
-    ;;
-  140.107.116.32)
-    hn="bkp-ofs02-prd"
-    ;;
-  140.107.116.33)
-    hn="bkp-ofs03-prd"
-    ;;
   *)
     hn=$(getent hosts "${ip}" | awk '{print $2}' | sed 's/.fhcrc.org$//')
     ;;
